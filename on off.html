@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn">on</button>
+    <button id="btn1">off</button>
+    <script>
+
+        var divget=document.createElement("div")
+        divget.style.border="1px solid black"
+        divget.style.width="400px"
+        divget.style.height="400px"
+
+        document.body.appendChild(divget)
+        
+        var butget=document.getElementById("btn")
+        butget.addEventListener("click",hwt)
+
+
+
+        var butget1=document.getElementById("btn1")
+        butget1.addEventListener("click",hwe)
+
+
+        function hwt(){
+            divget.style.backgroundColor="red"
+        }
+        function hwe(){
+            divget.style.backgroundColor="green"
+        }
+
+
+
+
+       
+    </script>
+</body>
+</html>

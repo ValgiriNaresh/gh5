@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        var divget=document.createElement("div")
+        divget.style.border="1px solid black"
+        divget.style.width="300px"
+        divget.style.height="300px"
+
+        document.body.append(divget)
+
+
+       var imgget=document.createElement("img")
+      
+       imgget.style.width="300px"
+       imgget.style.height="300px" 
+
+       divget.append(imgget)
+
+        
+        var divget1=document.createElement("div")
+        divget1.style.border="1px solid black"
+        divget1.style.width="600px"
+        divget1.style.height="400px"
+        document.body.append(divget1)
+
+
+        
+
+        var img1=document.createElement("img")
+        divget1.append(img1)
+        img1.src="logo-portada-web.png"
+        img1.style.width="200px"
+        img1.style.height="400px"
+
+        img1.addEventListener("mouseover", hew)
+
+        var img2=document.createElement("img")
+        divget1.append(img2)
+        img2.src="wp2722928.jpg"
+        img2.style.width="200px"
+        img2.style.height="400px"
+      
+        img2.addEventListener("mouseover",hww)
+
+        var img3=document.createElement("img")
+        divget1.append(img3)
+        img3.src="WhatsApp Image 2024-08-18 at 18.58.38_f744374f.jpg"
+        img3.style.width="200px"
+        img3.style.height="400px"
+        img3.addEventListener("mouseover",hqw)
+        
+
+        function hew(){
+
+            imgget.src="logo-portada-web.png"
+        }
+        function hww(){
+            imgget.src="wp2722928.jpg"
+
+        }
+        function hqw(){
+            imgget.src="WhatsApp Image 2024-08-18 at 18.58.38_f744374f.jpg"
+
+        }
+
+        
+
+        
+
+       
+    </script>
+</body>
+</html>
